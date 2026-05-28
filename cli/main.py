@@ -34,7 +34,7 @@ def cli():
 @click.option("--threads", "-t", default=10, help="Concurrent threads")
 def domain(target, output, threads):
     """Run domain OSINT scan."""
-    from cli.commands.domain import run
+    from commands.domain import run
     run(target, output, threads)
 
 
@@ -43,7 +43,7 @@ def domain(target, output, threads):
 @click.option("--output", "-o", default="terminal")
 def email(target, output):
     """Run email OSINT scan."""
-    from cli.commands.email import run
+    from commands.email import run
     run(target, output)
 
 
@@ -53,7 +53,7 @@ def email(target, output):
 @click.option("--platforms", "-p", default="all", help="Comma-separated platforms or 'all'")
 def username(target, output, platforms):
     """Run username search across platforms."""
-    from cli.commands.username import run
+    from commands.username import run
     run(target, output, platforms)
 
 
@@ -62,7 +62,7 @@ def username(target, output, platforms):
 @click.option("--output", "-o", default="terminal")
 def phone(target, output):
     """Run phone number OSINT."""
-    from cli.commands.phone import run
+    from commands.phone import run
     run(target, output)
 
 
@@ -72,7 +72,7 @@ def phone(target, output):
 @click.option("--ports", "-p", default="common", help="Port list: common|all|<port1,port2>")
 def ip(target, output, ports):
     """Run IP intelligence scan."""
-    from cli.commands.ip import run
+    from commands.ip import run
     run(target, output, ports)
 
 
