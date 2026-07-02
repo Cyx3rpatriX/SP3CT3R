@@ -1,0 +1,56 @@
+category,platform,data,status,risk_level
+subdomain,admin.google.com,Resolves to: 142.251.29.138,found,high
+subdomain,mail.google.com,Resolves to: 142.251.30.83,found,info
+subdomain,api.google.com,Resolves to: 192.178.223.106,found,info
+subdomain,www.google.com,Resolves to: 142.251.151.119,found,info
+subdomain,smtp.google.com,Resolves to: 192.178.223.26,found,info
+ssl,SSL Issuer,Google Trust Services,found,info
+ssl,SSL Subject,*.google.com,found,info
+ssl,SSL Valid Until,Aug 31 08:36:03 2026 GMT,found,info
+ssl,SSL SANs,"*.google.com, *.appengine.google.com, *.bdn.dev, *.origin-test.bdn.dev, *.cloud.google.com, *.crowdsource.google.com, *.datacompute.google.com, *.google.ca, *.google.cl, *.google.co.in",found,info
+subdomain,blog.google.com,Resolves to: 172.217.76.191,found,info
+subdomain,vpn.google.com,Resolves to: 64.9.224.68,found,high
+subdomain,shop.google.com,Resolves to: 192.178.223.92,found,info
+subdomain,store.google.com,Resolves to: 142.251.30.101,found,info
+dns,A Record,142.251.30.100,found,info
+dns,A Record,142.251.30.101,found,info
+dns,A Record,142.251.30.138,found,info
+dns,A Record,142.251.30.139,found,info
+dns,A Record,142.251.30.113,found,info
+dns,A Record,142.251.30.102,found,info
+geolocation,IP Address,142.251.216.110,found,info
+geolocation,Geolocation,"Lagos, Lagos, NG",found,info
+geolocation,ISP / ASN,AS15169 Google LLC,found,info
+geolocation,Hostname,lclosh-ad-in-f14.1e100.net,found,info
+geolocation,Timezone,Africa/Lagos,found,info
+dns,AAAA Record,2a00:1450:4007:817::200e,found,info
+subdomain,m.google.com,Resolves to: 142.250.117.193,found,info
+subdomain,ns2.google.com,Resolves to: 216.239.34.10,found,info
+subdomain,ns1.google.com,Resolves to: 216.239.32.10,found,info
+dns,MX Record,10 smtp.google.com.,found,info
+subdomain,mobile.google.com,Resolves to: 142.250.117.193,found,info
+headers,Header: Server,gws,found,info
+headers,Header: X-Frame-Options,SAMEORIGIN,found,low
+dns,TXT Record,globalsign-smime-dv=CDYX+XFHUw2wml6/Gb8+59BsH31KzUr6c1l2BPvqKX8=,found,info
+dns,TXT Record,google-site-verification=wD8N7i1JTNTkezJ49swvWW48f8_9xveREV4oB-0Hf5o,found,info
+dns,TXT Record,cisco-ci-domain-verification=47c38bc8c4b74b7233e9053220c1bbe76bcc1cd33c7acf7acd36cd6a5332004b,found,info
+dns,TXT Record,facebook-domain-verification=22rm551cu4k0ab0bxsw536tlds4h95,found,info
+dns,TXT Record,v=spf1 include:_spf.google.com ~all,found,info
+dns,TXT Record,docusign=1b0a6754-49b1-4db5-8540-d2c12664b289,found,info
+dns,TXT Record,apple-domain-verification=30afIBcvSuDV2PLX,found,info
+dns,TXT Record,onetrust-domain-verification=6d685f1d41a94696ad7ef771f68993e0,found,info
+dns,TXT Record,onetrust-domain-verification=0d477fe608074e6f9c12bca7826035cc,found,info
+dns,TXT Record,MS=E4A68B9AB2BB9670BCE15412F62916164C0B20BB,found,info
+dns,TXT Record,google-site-verification=TV9-DBe4R80X4v0M4U_bd_J9cpOJM0nikft0jAgjmsQ,found,info
+dns,TXT Record,docusign=05958488-4752-4ef2-95eb-aa7ba8a3bd0e,found,info
+dns,TXT Record,google-site-verification=4ibFUgB-wXLQ_S7vsXVomSTVamuOXBiVAzpR5IZ87D0,found,info
+dns,TXT Record,Z29vZ2xl,found,info
+dns,NS Record,ns3.google.com.,found,info
+dns,NS Record,ns1.google.com.,found,info
+dns,NS Record,ns2.google.com.,found,info
+dns,NS Record,ns4.google.com.,found,info
+subdomain,help.google.com,Resolves to: 142.251.39.206,found,info
+subdomain,docs.google.com,Resolves to: 142.251.29.101,found,info
+dns,SOA Record,ns1.google.com. dns-admin.google.com. 940360021 900 900 1800 60,found,info
+subdomain,support.google.com,Resolves to: 142.250.151.100,found,info
+dns,CAA Record,"0 issue ""pki.goog""",found,info

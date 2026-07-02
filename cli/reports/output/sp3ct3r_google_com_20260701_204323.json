@@ -1,0 +1,642 @@
+{
+  "target": "google.com",
+  "results": [
+    {
+      "category": "subdomain",
+      "platform": "mail.google.com",
+      "data": "Resolves to: 172.217.22.69",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "subdomain": "mail.google.com",
+        "ip": "172.217.22.69"
+      }
+    },
+    {
+      "category": "subdomain",
+      "platform": "www.google.com",
+      "data": "Resolves to: 142.251.154.119",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "subdomain": "www.google.com",
+        "ip": "142.251.154.119"
+      }
+    },
+    {
+      "category": "subdomain",
+      "platform": "api.google.com",
+      "data": "Resolves to: 192.178.223.105",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "subdomain": "api.google.com",
+        "ip": "192.178.223.105"
+      }
+    },
+    {
+      "category": "subdomain",
+      "platform": "admin.google.com",
+      "data": "Resolves to: 142.251.29.138",
+      "status": "found",
+      "risk_level": "high",
+      "raw": {
+        "subdomain": "admin.google.com",
+        "ip": "142.251.29.138"
+      }
+    },
+    {
+      "category": "ssl",
+      "platform": "SSL Issuer",
+      "data": "Google Trust Services",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "issuer": {
+          "countryName": "US",
+          "organizationName": "Google Trust Services",
+          "commonName": "WR2"
+        }
+      }
+    },
+    {
+      "category": "ssl",
+      "platform": "SSL Subject",
+      "data": "*.google.com",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "issuer": {
+          "countryName": "US",
+          "organizationName": "Google Trust Services",
+          "commonName": "WR2"
+        }
+      }
+    },
+    {
+      "category": "ssl",
+      "platform": "SSL Valid Until",
+      "data": "Aug 31 08:36:03 2026 GMT",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "issuer": {
+          "countryName": "US",
+          "organizationName": "Google Trust Services",
+          "commonName": "WR2"
+        }
+      }
+    },
+    {
+      "category": "ssl",
+      "platform": "SSL SANs",
+      "data": "*.google.com, *.appengine.google.com, *.bdn.dev, *.origin-test.bdn.dev, *.cloud.google.com, *.crowdsource.google.com, *.datacompute.google.com, *.google.ca, *.google.cl, *.google.co.in",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "issuer": {
+          "countryName": "US",
+          "organizationName": "Google Trust Services",
+          "commonName": "WR2"
+        }
+      }
+    },
+    {
+      "category": "subdomain",
+      "platform": "smtp.google.com",
+      "data": "Resolves to: 192.178.223.26",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "subdomain": "smtp.google.com",
+        "ip": "192.178.223.26"
+      }
+    },
+    {
+      "category": "subdomain",
+      "platform": "blog.google.com",
+      "data": "Resolves to: 142.250.140.191",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "subdomain": "blog.google.com",
+        "ip": "142.250.140.191"
+      }
+    },
+    {
+      "category": "subdomain",
+      "platform": "shop.google.com",
+      "data": "Resolves to: 192.178.223.92",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "subdomain": "shop.google.com",
+        "ip": "192.178.223.92"
+      }
+    },
+    {
+      "category": "dns",
+      "platform": "A Record",
+      "data": "172.217.22.78",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "name": "google.com.",
+        "type": 1,
+        "TTL": 300,
+        "data": "172.217.22.78"
+      }
+    },
+    {
+      "category": "subdomain",
+      "platform": "vpn.google.com",
+      "data": "Resolves to: 64.9.224.70",
+      "status": "found",
+      "risk_level": "high",
+      "raw": {
+        "subdomain": "vpn.google.com",
+        "ip": "64.9.224.70"
+      }
+    },
+    {
+      "category": "geolocation",
+      "platform": "IP Address",
+      "data": "142.251.216.110",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "ip": "142.251.216.110",
+        "hostname": "lclosh-ad-in-f14.1e100.net",
+        "city": "Lagos",
+        "region": "Lagos",
+        "country": "NG",
+        "loc": "6.4541,3.3947",
+        "org": "AS15169 Google LLC",
+        "timezone": "Africa/Lagos",
+        "readme": "https://ipinfo.io/missingauth"
+      }
+    },
+    {
+      "category": "geolocation",
+      "platform": "Geolocation",
+      "data": "Lagos, Lagos, NG",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "ip": "142.251.216.110",
+        "hostname": "lclosh-ad-in-f14.1e100.net",
+        "city": "Lagos",
+        "region": "Lagos",
+        "country": "NG",
+        "loc": "6.4541,3.3947",
+        "org": "AS15169 Google LLC",
+        "timezone": "Africa/Lagos",
+        "readme": "https://ipinfo.io/missingauth"
+      }
+    },
+    {
+      "category": "geolocation",
+      "platform": "ISP / ASN",
+      "data": "AS15169 Google LLC",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "ip": "142.251.216.110",
+        "hostname": "lclosh-ad-in-f14.1e100.net",
+        "city": "Lagos",
+        "region": "Lagos",
+        "country": "NG",
+        "loc": "6.4541,3.3947",
+        "org": "AS15169 Google LLC",
+        "timezone": "Africa/Lagos",
+        "readme": "https://ipinfo.io/missingauth"
+      }
+    },
+    {
+      "category": "geolocation",
+      "platform": "Hostname",
+      "data": "lclosh-ad-in-f14.1e100.net",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "ip": "142.251.216.110",
+        "hostname": "lclosh-ad-in-f14.1e100.net",
+        "city": "Lagos",
+        "region": "Lagos",
+        "country": "NG",
+        "loc": "6.4541,3.3947",
+        "org": "AS15169 Google LLC",
+        "timezone": "Africa/Lagos",
+        "readme": "https://ipinfo.io/missingauth"
+      }
+    },
+    {
+      "category": "geolocation",
+      "platform": "Timezone",
+      "data": "Africa/Lagos",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "ip": "142.251.216.110",
+        "hostname": "lclosh-ad-in-f14.1e100.net",
+        "city": "Lagos",
+        "region": "Lagos",
+        "country": "NG",
+        "loc": "6.4541,3.3947",
+        "org": "AS15169 Google LLC",
+        "timezone": "Africa/Lagos",
+        "readme": "https://ipinfo.io/missingauth"
+      }
+    },
+    {
+      "category": "subdomain",
+      "platform": "store.google.com",
+      "data": "Resolves to: 142.251.30.100",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "subdomain": "store.google.com",
+        "ip": "142.251.30.100"
+      }
+    },
+    {
+      "category": "dns",
+      "platform": "AAAA Record",
+      "data": "2a00:1450:4007:80a::200e",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "name": "google.com.",
+        "type": 28,
+        "TTL": 300,
+        "data": "2a00:1450:4007:80a::200e"
+      }
+    },
+    {
+      "category": "subdomain",
+      "platform": "ns1.google.com",
+      "data": "Resolves to: 216.239.32.10",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "subdomain": "ns1.google.com",
+        "ip": "216.239.32.10"
+      }
+    },
+    {
+      "category": "subdomain",
+      "platform": "mobile.google.com",
+      "data": "Resolves to: 142.250.117.193",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "subdomain": "mobile.google.com",
+        "ip": "142.250.117.193"
+      }
+    },
+    {
+      "category": "subdomain",
+      "platform": "ns2.google.com",
+      "data": "Resolves to: 216.239.34.10",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "subdomain": "ns2.google.com",
+        "ip": "216.239.34.10"
+      }
+    },
+    {
+      "category": "dns",
+      "platform": "MX Record",
+      "data": "10 smtp.google.com.",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "name": "google.com.",
+        "type": 15,
+        "TTL": 23,
+        "data": "10 smtp.google.com."
+      }
+    },
+    {
+      "category": "subdomain",
+      "platform": "m.google.com",
+      "data": "Resolves to: 142.250.117.193",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "subdomain": "m.google.com",
+        "ip": "142.250.117.193"
+      }
+    },
+    {
+      "category": "dns",
+      "platform": "TXT Record",
+      "data": "docusign=05958488-4752-4ef2-95eb-aa7ba8a3bd0e",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "name": "google.com.",
+        "type": 16,
+        "TTL": 300,
+        "data": "docusign=05958488-4752-4ef2-95eb-aa7ba8a3bd0e"
+      }
+    },
+    {
+      "category": "dns",
+      "platform": "TXT Record",
+      "data": "apple-domain-verification=30afIBcvSuDV2PLX",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "name": "google.com.",
+        "type": 16,
+        "TTL": 300,
+        "data": "apple-domain-verification=30afIBcvSuDV2PLX"
+      }
+    },
+    {
+      "category": "dns",
+      "platform": "TXT Record",
+      "data": "Z29vZ2xl",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "name": "google.com.",
+        "type": 16,
+        "TTL": 300,
+        "data": "Z29vZ2xl"
+      }
+    },
+    {
+      "category": "dns",
+      "platform": "TXT Record",
+      "data": "cisco-ci-domain-verification=47c38bc8c4b74b7233e9053220c1bbe76bcc1cd33c7acf7acd36cd6a5332004b",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "name": "google.com.",
+        "type": 16,
+        "TTL": 300,
+        "data": "cisco-ci-domain-verification=47c38bc8c4b74b7233e9053220c1bbe76bcc1cd33c7acf7acd36cd6a5332004b"
+      }
+    },
+    {
+      "category": "dns",
+      "platform": "TXT Record",
+      "data": "globalsign-smime-dv=CDYX+XFHUw2wml6/Gb8+59BsH31KzUr6c1l2BPvqKX8=",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "name": "google.com.",
+        "type": 16,
+        "TTL": 300,
+        "data": "globalsign-smime-dv=CDYX+XFHUw2wml6/Gb8+59BsH31KzUr6c1l2BPvqKX8="
+      }
+    },
+    {
+      "category": "dns",
+      "platform": "TXT Record",
+      "data": "google-site-verification=wD8N7i1JTNTkezJ49swvWW48f8_9xveREV4oB-0Hf5o",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "name": "google.com.",
+        "type": 16,
+        "TTL": 300,
+        "data": "google-site-verification=wD8N7i1JTNTkezJ49swvWW48f8_9xveREV4oB-0Hf5o"
+      }
+    },
+    {
+      "category": "dns",
+      "platform": "TXT Record",
+      "data": "facebook-domain-verification=22rm551cu4k0ab0bxsw536tlds4h95",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "name": "google.com.",
+        "type": 16,
+        "TTL": 300,
+        "data": "facebook-domain-verification=22rm551cu4k0ab0bxsw536tlds4h95"
+      }
+    },
+    {
+      "category": "dns",
+      "platform": "TXT Record",
+      "data": "google-site-verification=4ibFUgB-wXLQ_S7vsXVomSTVamuOXBiVAzpR5IZ87D0",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "name": "google.com.",
+        "type": 16,
+        "TTL": 300,
+        "data": "google-site-verification=4ibFUgB-wXLQ_S7vsXVomSTVamuOXBiVAzpR5IZ87D0"
+      }
+    },
+    {
+      "category": "dns",
+      "platform": "TXT Record",
+      "data": "docusign=1b0a6754-49b1-4db5-8540-d2c12664b289",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "name": "google.com.",
+        "type": 16,
+        "TTL": 300,
+        "data": "docusign=1b0a6754-49b1-4db5-8540-d2c12664b289"
+      }
+    },
+    {
+      "category": "dns",
+      "platform": "TXT Record",
+      "data": "onetrust-domain-verification=0d477fe608074e6f9c12bca7826035cc",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "name": "google.com.",
+        "type": 16,
+        "TTL": 300,
+        "data": "onetrust-domain-verification=0d477fe608074e6f9c12bca7826035cc"
+      }
+    },
+    {
+      "category": "dns",
+      "platform": "TXT Record",
+      "data": "v=spf1 include:_spf.google.com ~all",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "name": "google.com.",
+        "type": 16,
+        "TTL": 300,
+        "data": "v=spf1 include:_spf.google.com ~all"
+      }
+    },
+    {
+      "category": "dns",
+      "platform": "TXT Record",
+      "data": "MS=E4A68B9AB2BB9670BCE15412F62916164C0B20BB",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "name": "google.com.",
+        "type": 16,
+        "TTL": 300,
+        "data": "MS=E4A68B9AB2BB9670BCE15412F62916164C0B20BB"
+      }
+    },
+    {
+      "category": "dns",
+      "platform": "TXT Record",
+      "data": "onetrust-domain-verification=6d685f1d41a94696ad7ef771f68993e0",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "name": "google.com.",
+        "type": 16,
+        "TTL": 300,
+        "data": "onetrust-domain-verification=6d685f1d41a94696ad7ef771f68993e0"
+      }
+    },
+    {
+      "category": "dns",
+      "platform": "TXT Record",
+      "data": "google-site-verification=TV9-DBe4R80X4v0M4U_bd_J9cpOJM0nikft0jAgjmsQ",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "name": "google.com.",
+        "type": 16,
+        "TTL": 300,
+        "data": "google-site-verification=TV9-DBe4R80X4v0M4U_bd_J9cpOJM0nikft0jAgjmsQ"
+      }
+    },
+    {
+      "category": "headers",
+      "platform": "Header: Server",
+      "data": "gws",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {}
+    },
+    {
+      "category": "headers",
+      "platform": "Header: X-Frame-Options",
+      "data": "SAMEORIGIN",
+      "status": "found",
+      "risk_level": "low",
+      "raw": {}
+    },
+    {
+      "category": "dns",
+      "platform": "NS Record",
+      "data": "ns3.google.com.",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "name": "google.com.",
+        "type": 2,
+        "TTL": 21600,
+        "data": "ns3.google.com."
+      }
+    },
+    {
+      "category": "dns",
+      "platform": "NS Record",
+      "data": "ns2.google.com.",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "name": "google.com.",
+        "type": 2,
+        "TTL": 21600,
+        "data": "ns2.google.com."
+      }
+    },
+    {
+      "category": "dns",
+      "platform": "NS Record",
+      "data": "ns4.google.com.",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "name": "google.com.",
+        "type": 2,
+        "TTL": 21600,
+        "data": "ns4.google.com."
+      }
+    },
+    {
+      "category": "dns",
+      "platform": "NS Record",
+      "data": "ns1.google.com.",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "name": "google.com.",
+        "type": 2,
+        "TTL": 21600,
+        "data": "ns1.google.com."
+      }
+    },
+    {
+      "category": "subdomain",
+      "platform": "docs.google.com",
+      "data": "Resolves to: 172.217.76.113",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "subdomain": "docs.google.com",
+        "ip": "172.217.76.113"
+      }
+    },
+    {
+      "category": "dns",
+      "platform": "SOA Record",
+      "data": "ns1.google.com. dns-admin.google.com. 940360021 900 900 1800 60",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "name": "google.com.",
+        "type": 6,
+        "TTL": 34,
+        "data": "ns1.google.com. dns-admin.google.com. 940360021 900 900 1800 60"
+      }
+    },
+    {
+      "category": "subdomain",
+      "platform": "help.google.com",
+      "data": "Resolves to: 142.251.39.206",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "subdomain": "help.google.com",
+        "ip": "142.251.39.206"
+      }
+    },
+    {
+      "category": "subdomain",
+      "platform": "support.google.com",
+      "data": "Resolves to: 142.250.151.102",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "subdomain": "support.google.com",
+        "ip": "142.250.151.102"
+      }
+    },
+    {
+      "category": "dns",
+      "platform": "CAA Record",
+      "data": "0 issue \"pki.goog\"",
+      "status": "found",
+      "risk_level": "info",
+      "raw": {
+        "name": "google.com.",
+        "type": 257,
+        "TTL": 2791,
+        "data": "0 issue \"pki.goog\""
+      }
+    }
+  ]
+}
