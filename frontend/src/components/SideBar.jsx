@@ -12,7 +12,7 @@ const SCAN_MODULES = [
 ]
 const TOOLS = [
   { icon: '🕸', label: 'Graph',  path: '/graph'   },
-  { icon: '🕶', label: 'Dark',   path: '/dark'    },
+  { icon: '🕶', label: 'Dark',   path: '/dark',       module: 'darkweb'  },
   { icon: '📋', label: 'Report', path: '/reports' },
 ]
 const SYS = [

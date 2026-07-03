@@ -10,7 +10,7 @@ import os
 class Settings(BaseSettings):
     # App
     APP_NAME: str = "SP3CT3R"
-    APP_VERSION: str = "1.0.0"
+    APP_VERSION: str = "1.1.0"
     DEBUG: bool = True
     SECRET_KEY: str = "sp3ct3r-change-this-in-production"
 
@@ -31,6 +31,18 @@ class Settings(BaseSettings):
     IPINFO_API_KEY: str = ""
     WHOISXML_API_KEY: str = ""
     NUMVERIFY_API_KEY: str = ""
+    HIBP_API_KEY: str = ""
+    ABUSEIPDB_KEY: str = ""
+
+    # Dark Web / Threat Intel module
+    TOR_SOCKS_HOST: str = "127.0.0.1"
+    TOR_SOCKS_PORT: int = 9050
+    TOR_ENABLED: bool = False # route dark web requests through Tor if available
+    PSBDMP_BASE_URL: str = "https://psbdmp.ws/api/v3/search"
+    DEHASHED_API_KEY: str = "" # optional commercial plug-in
+    DEHASHED_EMAIL: str = "" # DeHashed uses email+key basic auth
+    FLARE_API_KEY: str = "" # optional commercial plug-in
+    RECORDED_FUTURE_API_KEY: str = "" # optional commercial plug-in'''
 
     # Scan settings
     MAX_CONCURRENT_SCANS: int = 5

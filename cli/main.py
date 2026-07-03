@@ -16,7 +16,7 @@ BANNER = """
 [bold cyan]        ███████╗██████╔╝ █████╔╝██║        ██║    █████╔╝██████╔╝[/]
 [dim cyan]        ╚════██║██╔═══╝  ╚═══██╗██║        ██║    ╚═══██╗██╔══██╗[/]
 [bold cyan]        ███████║██║     ██████╔╝╚██████╗   ██║   ██████╔╝██║  ██║[/]
-[dim cyan]        ╚══════╝╚═╝     ╚═════╝  ╚═════╝   ╚═╝   ╚═════╝ ╚═╝  ╚═╝[/]  [dim]v1.0.0[/]
+[dim cyan]        ╚══════╝╚═╝     ╚═════╝  ╚═════╝   ╚═╝   ╚═════╝ ╚═╝  ╚═╝[/]  [dim]v1.1.0[/]
 [bold white]S.P.3.C.T.3.R. — Smart Profiling & Evidence Collection Tool for Enhanced Reconnaissance[/]
 """
 
@@ -74,6 +74,15 @@ def ip(target, output, ports):
     """Run IP intelligence scan."""
     from commands.ip import run
     run(target, output, ports)
+
+
+@cli.command()
+@click.argument("target")
+@click.option("--output", "-o", default="terminal",                                         type=click.Choice(["terminal", "json", "csv"]))
+def dark(target, output):
+    """Dark Web Intel — breach databases, paste monitoring, threat feeds"""
+    from commands.dark import run
+    run(target, output)
 
 
 @cli.command()

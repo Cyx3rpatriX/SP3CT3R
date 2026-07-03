@@ -23,6 +23,7 @@ class ScanModule(str, enum.Enum):
     PHONE    = "phone"
     IP       = "ip"
     PERSON   = "person"
+    DARKWEB  = "darkweb"
 
 
 class RiskLevel(str, enum.Enum):
@@ -66,4 +67,44 @@ class ScanResult(Base):
     risk_level = Column(SAEnum(RiskLevel), default=RiskLevel.INFO)
     raw        = Column(JSON, default=dict)   # Full raw response
     created_at = Column(DateTime(timezone=True), server_default=func.now())
+
+
+class LeakSeverity(str, enum.Enum):
+    CRITICAL = "critical"   # plaintext passwords / SSNs / financial data
+    HIGH     = "high"       # hashed passwords / PII bundles
+    MEDIUM   = "medium"     # emails + usernames
+    LOW      = "low"        # email only / domain mentions
+    INFO     = "info"       # paste mentions / surface hits
+
+
+class LeakRecord(Base):
+    """A single leak or breach finding from the dark web module."""
+    __tablename__ = "leak_records"
+
+    id           = Column(Integer, primary_key=True, autoincrement=True)
+    scan_id      = Column(String(32), nullable=False, index=True)
+    target       = Column(String(512), nullable=False)
+    source       = Column(String(128))    # "HIBP", "psbdmp", "DeHashed", "Tor", etc.
+    source_type  = Column(String(64))     # "breach_db", "paste", "tor_hidden", "threat_intel"
+    title        = Column(String(256))    # breach name / paste title
+    description  = Column(Text)           # details
+    data_classes = Column(JSON, default=list)   # ["Passwords","Emails","SSNs",...]
+    severity     = Column(SAEnum(LeakSeverity), default=LeakSeverity.INFO)
+    date_found   = Column(String(64))     # when the breach/paste was indexed
+    url          = Column(String(1024))   # link to source (clearnet only)
+    raw          = Column(JSON, default=dict)
+    created_at   = Column(DateTime(timezone=True), server_default=func.now())
+
+
+class TorStatus(Base):
+    """Tracks Tor connectivity checks per scan."""
+    __tablename__ = "tor_status"
+
+    id          = Column(Integer, primary_key=True, autoincrement=True)
+    scan_id     = Column(String(32), nullable=False, index=True)
+    connected   = Column(String(8))   # "yes" | "no" | "unknown"
+    exit_ip     = Column(String(64))
+    exit_country= Column(String(64))
+    latency_ms  = Column(Integer)
+    checked_at  = Column(DateTime(timezone=True), server_default=func.now())
 

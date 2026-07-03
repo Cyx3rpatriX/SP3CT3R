@@ -98,6 +98,7 @@ async def _run_module(scan_id: str, target: str, module: ScanModule, options: di
     from app.services.username_service import run_username_scan
     from app.services.phone_service    import run_phone_scan
     from app.services.ip_service       import run_ip_scan
+    from app.services.darkweb_service  import run_darkweb_scan
 
     dispatch = {
         ScanModule.DOMAIN:   run_domain_scan,
@@ -105,6 +106,7 @@ async def _run_module(scan_id: str, target: str, module: ScanModule, options: di
         ScanModule.USERNAME: run_username_scan,
         ScanModule.PHONE:    run_phone_scan,
         ScanModule.IP:       run_ip_scan,
+        ScanModule.DARKWEB:  run_darkweb_scan,
     }
 
     handler = dispatch.get(module)
